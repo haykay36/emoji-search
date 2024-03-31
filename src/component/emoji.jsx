@@ -9,7 +9,7 @@ const Emoji = () => {
   };
   const handleCopy = (symbol) => {
     navigator.clipboard.writeText(symbol);
-    alert(`Copied ${symbol} to Clipboard`);
+    alert(`Copied ${symbol} to Clipboard. Paste to view.`);
   };
   const [data, setData] = useState([]);
   useEffect(() => {
