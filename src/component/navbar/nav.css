@@ -1,0 +1,16 @@
+.navbar-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: fit-content;
+}
+.nav-bar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
